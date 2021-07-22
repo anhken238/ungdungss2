@@ -26,7 +26,6 @@ public class Example_AnChi {
 		} while (inputNumber % 2 != 0 || inputNumber == 0);
 		return inputNumber;
 	}
-
 	private static void handleInput(int inputNumber) {
 		if (inputNumber % 2 == 0) {
 			int result = 0;
